@@ -1,0 +1,21 @@
+{
+  "name": "online-bookstore-api",
+  "version": "1.0.0",
+  "description": "RESTful API for an online bookstore management system using Node.js, Express, and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["bookstore", "api", "express", "mongodb", "rest"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
